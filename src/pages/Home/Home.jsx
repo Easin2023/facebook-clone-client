@@ -5,8 +5,8 @@ import Section3 from "../../Component/HomeSecrion/Section3";
 
 const Home = () => {
   return (
-    <div className="bg-[#F0F2F5] flex h-[100vh] gap-10">
-      <div className="w-72">
+    <div className="bg-[#F0F2F5] flex h-[100vh] md:gap-3">
+      <div className="w-72 ">
         <Section1 />
       </div>
       <div className="">

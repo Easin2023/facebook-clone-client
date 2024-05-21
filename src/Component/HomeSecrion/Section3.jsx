@@ -2,7 +2,7 @@ import React from 'react';
 
 const Section3 = () => {
      return (
-          <div>
+          <div className='w-72'>
                
           </div>
      );

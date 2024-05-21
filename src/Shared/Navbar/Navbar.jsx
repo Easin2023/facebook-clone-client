@@ -43,19 +43,27 @@ const Navbar = () => {
             </div>
           </div>
         </div>
-        <div className="flex justify-center text-[28px] items-center md:gap-16 gap-9 mt-3 md:pl-5 md:pr-32 opacity-[0.5]">
-          <Link>
-            <FiHome />
-          </Link>
-          <Link>
-            <MdOutlineOndemandVideo />
-          </Link>
-          <Link>
-            <RiStore2Line />
-          </Link>
-          <Link>
-            <HiOutlineUserGroup />
-          </Link>
+        <div className="flex justify-center items-center md:gap-16 gap-9 mt-3 md:pl-5 md:pr-32 opacity-[0.5]">
+          <button className="btn btn-ghost text-[28px]">
+            <Link>
+              <FiHome />
+            </Link>
+          </button>
+          <button className="btn btn-ghost text-[28px]">
+            <Link>
+              <MdOutlineOndemandVideo />
+            </Link>
+          </button>
+          <button className="btn btn-ghost text-[28px]">
+            <Link>
+              <RiStore2Line />
+            </Link>
+          </button>
+          <button className="btn btn-ghost text-[28px]">
+            <Link>
+              <HiOutlineUserGroup />
+            </Link>
+          </button>
           <div className="visible md:hidden flex gap-10 items-center">
             <Link>
               <div>
@@ -102,7 +110,7 @@ const Navbar = () => {
               />
             </Link>
           </div>
-          <div className="md:visible hidden lg:hidden bg-[#F0F2F5] p-2 opacity-[0.5] rounded-full">
+          <div className="md:flex hidden lg:hidden bg-[#F0F2F5] p-2 opacity-[0.5] rounded-full">
             <Link>
               <IoMenu size={30} />
             </Link>

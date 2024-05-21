@@ -3,8 +3,8 @@ import { IoIosArrowDown } from "react-icons/io";
 
 const Section1 = () => {
   return (
-    <div>
-      <div className="flex flex-col w-full mt-5">
+    <div className="w-72">
+      <div className="lg:flex flex-col w-full mt-5 hidden">
         <button className="flex items-center bg-[#F0F2F5] justify-start btn w-full">
           <img
             className="w-8 rounded-full"
