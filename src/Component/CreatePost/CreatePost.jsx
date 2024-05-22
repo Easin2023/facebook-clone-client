@@ -5,7 +5,7 @@ import { MdPhotoLibrary } from "react-icons/md";
 
 const CreatePost = () => {
   return (
-    <div className="md:h-[130px] h-[90px] md:w-full w-[424px] bg-white md:mt-5 mt-3 rounded-lg">
+    <div className="md:h-[130px] h-[90px] md:w-full w-[424px] bg-white md:mt-5 mt-3 rounded-lg shadow-md">
       <div className="flex md:gap-4 gap-2 items-center md:mx-5 mx-2 md:py-3 py-1">
         <img
           className="md:w-10 w-7 rounded-full md:h-10 h-7"

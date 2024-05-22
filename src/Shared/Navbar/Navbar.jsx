@@ -44,26 +44,18 @@ const Navbar = () => {
           </div>
         </div>
         <div className="flex justify-center items-center md:gap-16 gap-9 mt-3 md:pl-5 md:pr-32 opacity-[0.5]">
-          <button className="btn btn-ghost text-[28px]">
-            <Link>
-              <FiHome />
-            </Link>
-          </button>
-          <button className="btn btn-ghost text-[28px]">
-            <Link>
-              <MdOutlineOndemandVideo />
-            </Link>
-          </button>
-          <button className="btn btn-ghost text-[28px]">
-            <Link>
-              <RiStore2Line />
-            </Link>
-          </button>
-          <button className="btn btn-ghost text-[28px]">
-            <Link>
-              <HiOutlineUserGroup />
-            </Link>
-          </button>
+          <Link className="md:btn md:btn-ghost md:text-[28px] text-[28px]">
+            <FiHome />
+          </Link>
+          <Link className="md:btn md:btn-ghost md:text-[28px] text-[28px]">
+            <MdOutlineOndemandVideo />
+          </Link>
+          <Link className="md:btn md:btn-ghost md:text-[28px] text-[28px]">
+            <RiStore2Line />
+          </Link>
+          <Link className="md:btn md:btn-ghost md:text-[28px] text-[28px]">
+            <HiOutlineUserGroup />
+          </Link>
           <div className="visible md:hidden flex gap-10 items-center">
             <Link>
               <div>
