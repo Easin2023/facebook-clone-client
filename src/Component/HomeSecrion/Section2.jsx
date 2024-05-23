@@ -6,6 +6,7 @@ import PostCards from "../PostCards/PostCards";
 import ResponsiveCreatePost from "../ResponsiveCreatePost/ResponsiveCreatePost";
 import ProfilePictureCard from "../ProfilePictureCard/ProfilePictureCard";
 import VideoPostCard from "../VideoPostCard/VideoPostCard";
+import AllReelsCard from "../AllReelsCard/AllReelsCard";
 
 const Section2 = () => {
   return (
@@ -27,6 +28,11 @@ const Section2 = () => {
         <PostCards />
         <ProfilePictureCard />
         <VideoPostCard />
+      </div>
+
+      {/* reel cards */}
+      <div>
+        <AllReelsCard />
       </div>
     </div>
   );
